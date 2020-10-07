@@ -1,3 +1,194 @@
+/* FONTS */
+
+h1{
+  font-family: 'Montserrat' ;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 120%;
+}
+
+h2{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 110%;
+}
+
+h3{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+h4{
+  font-family: 'Montserrat';
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 200;
+
+}
+
+h5{
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: bold;
+
+}
+
+h6{
+  font-size: 14px;
+  line-height: 120%;
+}
+
+p{
+font-family: 'Helvetica Neue';
+font-size: 16px;
+line-height: 160%;
+font-weight: 400;
+font-style: normal;
+}
+
+
+/* BACKGROUNDS */
+
+.hero-bg{
+  background-image: url("../img/svg/hero.svg");
+}
+
+.gray-bg{
+  background-color: #F3F5F9;
+}
+
+/* ITEMS */
+
+.white-button {
+  color:#006AFF;
+  border:1px solid #006AFF;
+  border-radius: 5px;
+  background-color: white;
+  width:80px;
+  height:40px;
+  line-height: normal;
+
+}
+
+/* DEB */
+
+.section-border{
+  border:1px solid black;
+}
+
+.container-border{
+  border:2px solid lightgreen;
+}
+
+.row-border {
+ border: 1 px solid blue;
+}
+
+[class*="col-"]{
+  border:1px solid violet;
+}
+
+/* HELPER */
+.emc2{
+  position:relative
+}
+.blue-text{
+  color:#006AFF
+}
+
+.white-text{
+  color:white;
+}
+
+.gray-text{
+  color:gray;
+}
+
+/* NAV */
+
+.section-nav img{
+height:50px;
+margin-bottom: 25px;
+margin-top:25px;
+padding:10px;
+padding-left:0;
+}
+
+nav div ul {
+  list-style: none;
+}
+
+nav div ul li {
+  display: inline;
+  margin-left: 20px;
+  line-height: 100px;
+}
+
+/* JUMBOTRONE */
+.section-jumbotrone{
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+/* FORM CONTAINER */
+
+.form-container{
+  text-align: center;
+  border:1px solid blue;
+  border-radius: 5px;
+  background-color: white;
+  padding-bottom:30px;
+}
+
+.form-container input,button{
+  width:100%;
+  margin-bottom:15px;
+  border-radius: 5px;
+  border:1px solid lightgray;
+}
+
+.form-container input{
+  line-height: 40px;
+}
+
+.form-container button{
+  height:30px;
+}
+
+/* SECTION SPONSOR */
+
+.section-sponsor{
+  text-align: center;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+.section-sponsor img{
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+/* SECTION DEPLOY AND SCALE */
+
+.section-depandscale h2{
+  text-align: center;
+}
+
+.section-depandscale ul{
+  list-style:none;
+  border-left: 2px solid gray;
+  padding-left:10px;;
+}
+
+.section-depandscale ul li{
+
+}
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 991px){
 
