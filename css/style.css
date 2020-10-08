@@ -426,13 +426,24 @@ nav button i{
 /* MEDIA QUERIES */
 @media screen and (max-width: 991px){
 
-  .display-none-xs {
-		display: none;
-	}
+  .section-depandscale ul{
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 0px solid lightgray;
+    border-bottom:2px solid lightgray;
+  }
+
+  .section-depandscale ul li{
+    display: inline;
+    margin-left:40px;
+    text-align: center;
+  }
+
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px){
+/* @media screen and (min-width: 992px) and (max-width: 1199px){
 
   .display-none-md {
 		display: none;
@@ -446,4 +457,4 @@ nav button i{
 		display: none;
 	}
 
-}
+} */
