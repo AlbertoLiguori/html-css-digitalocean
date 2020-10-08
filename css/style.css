@@ -126,9 +126,9 @@ a{
  border: 1 px solid blue;
 }
 
-[class*="col-"]{
+/* [class*="col-"]{
   border:1px solid violet;
-}
+} */
 
 /* HELPER */
 .emc2{
@@ -226,7 +226,7 @@ nav div ul li {
   padding-bottom: 50px;
 }
 
-.section-depandscale h2,h3{
+.section-depandscale h2, .section-depandscale h3{
   text-align: center;
 }
 
@@ -270,19 +270,6 @@ nav div ul li {
   margin-bottom:50px;
 }
 
-/* .section-designedfor{
-  padding-top: 20px;
-  padding-bottom:20px;
-
-} */
-/* .section-designedfor .fa-angle-right{
-
-}
-
-.section-designedfor .fa-angle-left{
-
-} */
-
 /* SECTION FEATURES */
 .section-features{
   padding-top:50px;
@@ -302,6 +289,41 @@ nav div ul li {
 .section-table{
   padding-top: 50px;
   padding-bottom:50px;
+}
+
+.section-table h2{
+  text-align: center;
+}
+
+.t-container{
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.t-container > div{
+  border-bottom: 2px solid lightgray;
+  border-radius: 2px;
+  line-height:40px;
+}
+
+.t-container > div :first-child{
+  padding-left: 10px;
+}
+
+.t-container > div :last-child{
+  color:#6CCBCE;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.t-container :last-child{
+  border:0px;
+}
+
+.t-container div div:nth-child(2){
+  color:lightgray;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /* SECTION LOVE DIGITALOCEAN */
