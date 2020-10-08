@@ -112,7 +112,7 @@ a{
   color:#006AFF;
 }
 
-/* DEB */
+/* D-BUg */
 
 .section-border{
   border:1px solid black;
@@ -123,7 +123,7 @@ a{
 }
 
 .row-border {
- border: 1 px solid blue;
+ border: 1px solid blue;
 }
 
 /* [class*="col-"]{
@@ -172,6 +172,18 @@ nav div ul li {
   line-height: 100px;
 }
 
+nav div i{
+  color:#006AFF;
+}
+
+.burger-button{
+  border:0px;
+  background-color: white;
+  height:100px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
 /* JUMBOTRONE */
 .section-jumbotrone{
   padding-top:50px;
@@ -216,6 +228,7 @@ nav div ul li {
 }
 
 .section-sponsor img{
+  height:100%;
   margin-top: 30px;
   margin-bottom:30px;
 }
@@ -298,6 +311,7 @@ nav div ul li {
 .t-container{
   margin-left:0px;
   margin-right:0px;
+  margin-top:30px;
 }
 
 .t-container > div{
