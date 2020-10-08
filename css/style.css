@@ -4,7 +4,8 @@ h1{
   font-family: 'Montserrat' ;
   font-weight: 700;
   font-size: 58px;
-  line-height: 120%;
+  line-height: 100%;
+  margin-top: 0;
 }
 
 h2{
@@ -108,6 +109,18 @@ font-style: normal;
   line-height: normal;
 }
 
+.blue-button{
+  background-color: #679AF7;
+  color: white;
+  border: 1px solid blue;
+}
+
+.google-button{
+  background-color: white;
+  border:0px;
+  box-shadow: 2px 2px lightgray;
+}
+
 a{
   color:#006AFF;
 }
@@ -172,7 +185,7 @@ nav div ul li {
   line-height: 100px;
 }
 
-nav div i{
+nav button i{
   color:#006AFF;
 }
 
